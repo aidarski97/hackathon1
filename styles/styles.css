@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:azure;
+    display: block;
+    position: relative;
+}
+
+.nav-head {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5%;
+    flex-grow: 1;
+    background-color:black;
+}
+
+.navbar_logo {
+    
+    max-width: 120px;
+    height: 75px;
+}
+
+.navbar_list {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    font-size: large;
+    color: azure;
+}
+.navbar_list__item a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 100% 20px;
+} 
+
+.header {
+    background: url(img/greg-rosenke-6QnEf_b47eA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background_img {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+    width: auto;
+    font-size: 55pt;
+}
+
+.header h2 {
+    font-size: 40pt;
+    margin: 20px;
+}
+
+.soc_logos {
+    display: flex;
+    width: 8vw;
+    justify-content: space-between;
+
+
+}
+
+.soc_logos__item img {
+    justify-content: center;
+    image-rendering: auto;
+    width: 30px;
+    height: 30px;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 45pt;
+    margin: 5vh;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 3vh;
+}
+
+.info_block {
+    width: 100vw;
+}
+
+.info_block__desc {
+    padding: 0 15vw;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.info_block__skills{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 5vh 0vw;
+}
+
+.info_block__skills_list {
+    margin: 0 1vw;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.photos img {
+    width: 5vw;
+    height: 5vh;
+}
+
+
+
+
+li {
+    list-style-type: none;
+    /* background-color:blueviolet; */
+}
